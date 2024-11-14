@@ -1,0 +1,366 @@
+{
+  "accounts": {
+    "account{0}": "0x5B38Da6a701c568545dCfcB03FcB875f56beddC4",
+    "account{1}": "0xAb8483F64d9C6d1EcF9b849Ae677dD3315835cb2"
+  },
+  "linkReferences": {},
+  "transactions": [
+    {
+      "timestamp": 1731576092619,
+      "record": {
+        "value": "0",
+        "inputs": "()",
+        "parameters": [],
+        "name": "",
+        "type": "constructor",
+        "abi": "0x8dedaa2d1ea44683212f2e6a80da7943b99f0abeb20c116f44f8f89b2ff01d5d",
+        "contractName": "Slashing",
+        "bytecode": "6080604052348015600e575f5ffd5b50335f5f6101000a81548173ffffffffffffffffffffffffffffffffffffffff021916908373ffffffffffffffffffffffffffffffffffffffff1602179055506110828061005b5f395ff3fe6080604052600436106100a6575f3560e01c80635997bb37116100635780635997bb371461016e57806366666aa9146101985780639168ae72146101c2578063d0e30db0146101ff578063d7bf54b214610209578063d82e396214610233576100a6565b806302fb4d85146100aa57806307236168146100d25780632e1a7d4d146100fc578063372500ab1461012457806349b22a9f1461013a5780634ec7b7a314610144575b5f5ffd5b3480156100b5575f5ffd5b506100d060048036038101906100cb9190610a1e565b61026f565b005b3480156100dd575f5ffd5b506100e661045d565b6040516100f39190610a6b565b60405180910390f35b348015610107575f5ffd5b50610122600480360381019061011d9190610a84565b610462565b005b34801561012f575f5ffd5b50610138610597565b005b6101426106b1565b005b34801561014f575f5ffd5b5061015861079b565b6040516101659190610abe565b60405180910390f35b348015610179575f5ffd5b506101826107bf565b60405161018f9190610a6b565b60405180910390f35b3480156101a3575f5ffd5b506101ac6107c4565b6040516101b99190610a6b565b60405180910390f35b3480156101cd575f5ffd5b506101e860048036038101906101e39190610ad7565b6107ca565b6040516101f6929190610b02565b60405180910390f35b6102076107ea565b005b348015610214575f5ffd5b5061021d6108eb565b60405161022a9190610a6b565b60405180910390f35b34801561023e575f5ffd5b5061025960048036038101906102549190610ad7565b6108f1565b6040516102669190610a6b565b60405180910390f35b5f5f9054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff163373ffffffffffffffffffffffffffffffffffffffff16146102fd576040517f08c379a00000000000000000000000000000000000000000000000000000000081526004016102f490610ba9565b60405180910390fd5b5f60025f8473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1681526020019081526020015f2090505f815f015411610382576040517f08c379a000000000000000000000000000000000000000000000000000000000815260040161037990610c37565b60405180910390fd5b5f6002825f01546103939190610caf565b9050808311156103d8576040517f08c379a00000000000000000000000000000000000000000000000000000000081526004016103cf90610d4f565b60405180910390fd5b82825f015f8282546103ea9190610d6d565b925050819055508260035f8282546104029190610da0565b925050819055508373ffffffffffffffffffffffffffffffffffffffff167f4b28c7dc138644f27518388387393ecbd08ef8d180a4a6799c954be166a37ab38460405161044f9190610a6b565b60405180910390a250505050565b60b481565b5f60025f3373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1681526020019081526020015f20905081815f015410156104e8576040517f08c379a00000000000000000000000000000000000000000000000000000000081526004016104df90610e43565b60405180910390fd5b81815f015f8282546104fa9190610d6d565b925050819055503373ffffffffffffffffffffffffffffffffffffffff166108fc8390811502906040515f60405180830381858888f19350505050158015610544573d5f5f3e3d5ffd5b503373ffffffffffffffffffffffffffffffffffffffff167f884edad9ce6fa2440d8a54cc123490eb96d2768479d49ff9c7366125a94243648360405161058b9190610a6b565b60405180910390a25050565b5f60025f3373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1681526020019081526020015f2090505f6105e1336108f1565b90505f8111610625576040517f08c379a000000000000000000000000000000000000000000000000000000000815260040161061c90610ed1565b60405180910390fd5b80825f015f8282546106379190610da0565b925050819055504282600101819055508060015f8282546106589190610d6d565b925050819055503373ffffffffffffffffffffffffffffffffffffffff167f1f89f96333d3133000ee447473151fa9606543368f02271c9d95ae14f13bcc67826040516106a59190610a6b565b60405180910390a25050565b5f5f9054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff163373ffffffffffffffffffffffffffffffffffffffff161461073f576040517f08c379a000000000000000000000000000000000000000000000000000000000815260040161073690610ba9565b60405180910390fd5b5f3411610781576040517f08c379a000000000000000000000000000000000000000000000000000000000815260040161077890610f5f565b60405180910390fd5b3460015f8282546107929190610da0565b92505081905550565b5f5f9054906101000a900473ffffffffffffffffffffffffffffffffffffffff1681565b600581565b60015481565b6002602052805f5260405f205f91509050805f0154908060010154905082565b5f341161082c576040517f08c379a000000000000000000000000000000000000000000000000000000000815260040161082390610fed565b60405180910390fd5b5f60025f3373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1681526020019081526020015f20905034815f015f82825461087e9190610da0565b925050819055505f81600101540361089a574281600101819055505b3373ffffffffffffffffffffffffffffffffffffffff167fe1fffcc4923d04b559f4d29a8bfc6cda04eb5b0d3c460751c2402c5c5cc9109c346040516108e09190610a6b565b60405180910390a250565b60035481565b5f5f60025f8473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1681526020019081526020015f20905060b481600101546109439190610da0565b4210610983575f60646005835f015461095c919061100b565b6109669190610caf565b9050600154811115610978575f61097a565b805b92505050610988565b5f9150505b919050565b5f5ffd5b5f73ffffffffffffffffffffffffffffffffffffffff82169050919050565b5f6109ba82610991565b9050919050565b6109ca816109b0565b81146109d4575f5ffd5b50565b5f813590506109e5816109c1565b92915050565b5f819050919050565b6109fd816109eb565b8114610a07575f5ffd5b50565b5f81359050610a18816109f4565b92915050565b5f5f60408385031215610a3457610a3361098d565b5b5f610a41858286016109d7565b9250506020610a5285828601610a0a565b9150509250929050565b610a65816109eb565b82525050565b5f602082019050610a7e5f830184610a5c565b92915050565b5f60208284031215610a9957610a9861098d565b5b5f610aa684828501610a0a565b91505092915050565b610ab8816109b0565b82525050565b5f602082019050610ad15f830184610aaf565b92915050565b5f60208284031215610aec57610aeb61098d565b5b5f610af9848285016109d7565b91505092915050565b5f604082019050610b155f830185610a5c565b610b226020830184610a5c565b9392505050565b5f82825260208201905092915050565b7f4f6e6c7920746865206f776e65722063616e20706572666f726d2074686973205f8201527f616374696f6e0000000000000000000000000000000000000000000000000000602082015250565b5f610b93602683610b29565b9150610b9e82610b39565b604082019050919050565b5f6020820190508181035f830152610bc081610b87565b9050919050565b7f496e76616c6964205374616b65722061646472657373206f72206e6f2066756e5f8201527f647320746f20736c617368212100000000000000000000000000000000000000602082015250565b5f610c21602d83610b29565b9150610c2c82610bc7565b604082019050919050565b5f6020820190508181035f830152610c4e81610c15565b9050919050565b7f4e487b71000000000000000000000000000000000000000000000000000000005f52601260045260245ffd5b7f4e487b71000000000000000000000000000000000000000000000000000000005f52601160045260245ffd5b5f610cb9826109eb565b9150610cc4836109eb565b925082610cd457610cd3610c55565b5b828204905092915050565b7f50656e616c747920657863656564732074686520616c6c6f776564206d6178695f8201527f6d756d2121000000000000000000000000000000000000000000000000000000602082015250565b5f610d39602583610b29565b9150610d4482610cdf565b604082019050919050565b5f6020820190508181035f830152610d6681610d2d565b9050919050565b5f610d77826109eb565b9150610d82836109eb565b9250828203905081811115610d9a57610d99610c82565b5b92915050565b5f610daa826109eb565b9150610db5836109eb565b9250828201905080821115610dcd57610dcc610c82565b5b92915050565b7f496e73756666696369656e7421212062616c616e636520746f207769746864725f8201527f61772e0000000000000000000000000000000000000000000000000000000000602082015250565b5f610e2d602383610b29565b9150610e3882610dd3565b604082019050919050565b5f6020820190508181035f830152610e5a81610e21565b9050919050565b7f4e6f207265776172647320617661696c61626c652121206f7220696e737566665f8201527f696369656e742072657761726420706f6f6c2121210000000000000000000000602082015250565b5f610ebb603583610b29565b9150610ec682610e61565b604082019050919050565b5f6020820190508181035f830152610ee881610eaf565b9050919050565b7f52657761726420616d6f756e742073686f756c642062652067726561746572205f8201527f7468616e20302e20212121000000000000000000000000000000000000000000602082015250565b5f610f49602b83610b29565b9150610f5482610eef565b604082019050919050565b5f6020820190508181035f830152610f7681610f3d565b9050919050565b7f4465706f73697420616d6f756e742073686f756c6420626520677265617465725f8201527f207468616e20302e202121210000000000000000000000000000000000000000602082015250565b5f610fd7602c83610b29565b9150610fe282610f7d565b604082019050919050565b5f6020820190508181035f83015261100481610fcb565b9050919050565b5f611015826109eb565b9150611020836109eb565b925082820261102e816109eb565b9150828204841483151761104557611044610c82565b5b509291505056fea2646970667358221220f6ca1813ee40b8a77bf27ede313b3e6849cd8641d57486bd87b737843333580c64736f6c634300081c0033",
+        "linkReferences": {},
+        "from": "account{0}"
+      }
+    },
+    {
+      "timestamp": 1731576173982,
+      "record": {
+        "value": "10000000000000000000",
+        "inputs": "()",
+        "parameters": [],
+        "name": "addRewardFunds",
+        "type": "function",
+        "to": "created{1731576092619}",
+        "abi": "0x8dedaa2d1ea44683212f2e6a80da7943b99f0abeb20c116f44f8f89b2ff01d5d",
+        "from": "account{0}"
+      }
+    },
+    {
+      "timestamp": 1731576207632,
+      "record": {
+        "value": "5000000000000000000",
+        "inputs": "()",
+        "parameters": [],
+        "name": "deposit",
+        "type": "function",
+        "to": "created{1731576092619}",
+        "abi": "0x8dedaa2d1ea44683212f2e6a80da7943b99f0abeb20c116f44f8f89b2ff01d5d",
+        "from": "account{1}"
+      }
+    },
+    {
+      "timestamp": 1731576453690,
+      "record": {
+        "value": "0",
+        "inputs": "()",
+        "parameters": [],
+        "name": "claimRewards",
+        "type": "function",
+        "to": "created{1731576092619}",
+        "abi": "0x8dedaa2d1ea44683212f2e6a80da7943b99f0abeb20c116f44f8f89b2ff01d5d",
+        "from": "account{1}"
+      }
+    },
+    {
+      "timestamp": 1731576501517,
+      "record": {
+        "value": "0",
+        "inputs": "(uint256)",
+        "parameters": [
+          "250000000000000000"
+        ],
+        "name": "withdraw",
+        "type": "function",
+        "to": "created{1731576092619}",
+        "abi": "0x8dedaa2d1ea44683212f2e6a80da7943b99f0abeb20c116f44f8f89b2ff01d5d",
+        "from": "account{1}"
+      }
+    },
+    {
+      "timestamp": 1731576699461,
+      "record": {
+        "value": "0",
+        "inputs": "(address,uint256)",
+        "parameters": [
+          "0xAb8483F64d9C6d1EcF9b849Ae677dD3315835cb2",
+          "50000000"
+        ],
+        "name": "slash",
+        "type": "function",
+        "to": "created{1731576092619}",
+        "abi": "0x8dedaa2d1ea44683212f2e6a80da7943b99f0abeb20c116f44f8f89b2ff01d5d",
+        "from": "account{1}"
+      }
+    },
+    {
+      "timestamp": 1731576716162,
+      "record": {
+        "value": "0",
+        "inputs": "(address,uint256)",
+        "parameters": [
+          "0xAb8483F64d9C6d1EcF9b849Ae677dD3315835cb2",
+          "5000"
+        ],
+        "name": "slash",
+        "type": "function",
+        "to": "created{1731576092619}",
+        "abi": "0x8dedaa2d1ea44683212f2e6a80da7943b99f0abeb20c116f44f8f89b2ff01d5d",
+        "from": "account{1}"
+      }
+    },
+    {
+      "timestamp": 1731576751218,
+      "record": {
+        "value": "0",
+        "inputs": "(address,uint256)",
+        "parameters": [
+          "0xAb8483F64d9C6d1EcF9b849Ae677dD3315835cb2",
+          "5000000"
+        ],
+        "name": "slash",
+        "type": "function",
+        "to": "created{1731576092619}",
+        "abi": "0x8dedaa2d1ea44683212f2e6a80da7943b99f0abeb20c116f44f8f89b2ff01d5d",
+        "from": "account{0}"
+      }
+    }
+  ],
+  "abis": {
+    "0x8dedaa2d1ea44683212f2e6a80da7943b99f0abeb20c116f44f8f89b2ff01d5d": [
+      {
+        "inputs": [],
+        "name": "addRewardFunds",
+        "outputs": [],
+        "stateMutability": "payable",
+        "type": "function"
+      },
+      {
+        "inputs": [],
+        "name": "claimRewards",
+        "outputs": [],
+        "stateMutability": "nonpayable",
+        "type": "function"
+      },
+      {
+        "anonymous": false,
+        "inputs": [
+          {
+            "indexed": true,
+            "internalType": "address",
+            "name": "staker",
+            "type": "address"
+          },
+          {
+            "indexed": false,
+            "internalType": "uint256",
+            "name": "rewardAmount",
+            "type": "uint256"
+          }
+        ],
+        "name": "ClaimRewards",
+        "type": "event"
+      },
+      {
+        "inputs": [],
+        "name": "deposit",
+        "outputs": [],
+        "stateMutability": "payable",
+        "type": "function"
+      },
+      {
+        "anonymous": false,
+        "inputs": [
+          {
+            "indexed": true,
+            "internalType": "address",
+            "name": "staker",
+            "type": "address"
+          },
+          {
+            "indexed": false,
+            "internalType": "uint256",
+            "name": "amount",
+            "type": "uint256"
+          }
+        ],
+        "name": "Deposit",
+        "type": "event"
+      },
+      {
+        "anonymous": false,
+        "inputs": [
+          {
+            "indexed": true,
+            "internalType": "address",
+            "name": "stakerAddress",
+            "type": "address"
+          },
+          {
+            "indexed": false,
+            "internalType": "uint256",
+            "name": "amount",
+            "type": "uint256"
+          }
+        ],
+        "name": "PenaltyApplied",
+        "type": "event"
+      },
+      {
+        "inputs": [
+          {
+            "internalType": "address",
+            "name": "stakerAddress",
+            "type": "address"
+          },
+          {
+            "internalType": "uint256",
+            "name": "penaltyAmount",
+            "type": "uint256"
+          }
+        ],
+        "name": "slash",
+        "outputs": [],
+        "stateMutability": "nonpayable",
+        "type": "function"
+      },
+      {
+        "inputs": [
+          {
+            "internalType": "uint256",
+            "name": "amount",
+            "type": "uint256"
+          }
+        ],
+        "name": "withdraw",
+        "outputs": [],
+        "stateMutability": "nonpayable",
+        "type": "function"
+      },
+      {
+        "anonymous": false,
+        "inputs": [
+          {
+            "indexed": true,
+            "internalType": "address",
+            "name": "staker",
+            "type": "address"
+          },
+          {
+            "indexed": false,
+            "internalType": "uint256",
+            "name": "amount",
+            "type": "uint256"
+          }
+        ],
+        "name": "Withdraw",
+        "type": "event"
+      },
+      {
+        "inputs": [
+          {
+            "internalType": "address",
+            "name": "stakerAddress",
+            "type": "address"
+          }
+        ],
+        "name": "calculateReward",
+        "outputs": [
+          {
+            "internalType": "uint256",
+            "name": "",
+            "type": "uint256"
+          }
+        ],
+        "stateMutability": "view",
+        "type": "function"
+      },
+      {
+        "inputs": [],
+        "name": "Owner_Address",
+        "outputs": [
+          {
+            "internalType": "address",
+            "name": "",
+            "type": "address"
+          }
+        ],
+        "stateMutability": "view",
+        "type": "function"
+      },
+      {
+        "inputs": [],
+        "name": "REWARD_RATE",
+        "outputs": [
+          {
+            "internalType": "uint256",
+            "name": "",
+            "type": "uint256"
+          }
+        ],
+        "stateMutability": "view",
+        "type": "function"
+      },
+      {
+        "inputs": [],
+        "name": "REWARD_TIME",
+        "outputs": [
+          {
+            "internalType": "uint256",
+            "name": "",
+            "type": "uint256"
+          }
+        ],
+        "stateMutability": "view",
+        "type": "function"
+      },
+      {
+        "inputs": [],
+        "name": "rewardPool",
+        "outputs": [
+          {
+            "internalType": "uint256",
+            "name": "",
+            "type": "uint256"
+          }
+        ],
+        "stateMutability": "view",
+        "type": "function"
+      },
+      {
+        "inputs": [],
+        "name": "slashingBalance",
+        "outputs": [
+          {
+            "internalType": "uint256",
+            "name": "",
+            "type": "uint256"
+          }
+        ],
+        "stateMutability": "view",
+        "type": "function"
+      },
+      {
+        "inputs": [
+          {
+            "internalType": "address",
+            "name": "",
+            "type": "address"
+          }
+        ],
+        "name": "stakers",
+        "outputs": [
+          {
+            "internalType": "uint256",
+            "name": "balance",
+            "type": "uint256"
+          },
+          {
+            "internalType": "uint256",
+            "name": "lastClaimedTime",
+            "type": "uint256"
+          }
+        ],
+        "stateMutability": "view",
+        "type": "function"
+      }
+    ]
+  }
+}

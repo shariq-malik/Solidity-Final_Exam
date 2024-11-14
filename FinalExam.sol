@@ -96,3 +96,31 @@ contract StakingPool {
         emit ClaimRewards(msg.sender, reward);
     }
 }
+
+// Slashing... & Penalizing... Stakerrrss..
+contract Slashing is StakingPool{
+    uint public slashingBalance;
+
+    event PenaltyApplied(address indexed stakerAddress, uint amount);
+
+    // penalize staker for malicious behavior!!
+    function slash(address stakerAddress, uint penaltyAmount) external onlyOwner{
+        Staker storage staker = stakers [stakerAddress];
+        require(staker.balance > 0, "Invalid Staker address or no funds to slash!!");
+
+        // only 50% of stakers balance..
+        uint maxPenalty = staker.balance / 2;
+        require(penaltyAmount <= maxPenalty, "Penalty exceeds the allowed maximum!!");
+
+        staker.balance -= penaltyAmount;
+        slashingBalance += penaltyAmount;
+
+        emit PenaltyApplied( stakerAddress, penaltyAmount);
+
+
+    }
+
+
+
+
+}
